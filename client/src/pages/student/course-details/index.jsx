@@ -227,7 +227,7 @@ function StudentViewCourseDetailsPage() {
               <>
               <div className="flex justify-between mt-5 mb-5">
                 <h1 className="text-3xl font-semibold">{studentViewCourseDetails?.title} Assignments </h1>
-              <Button className="justify-end mt-2" style={{ backgroundColor: "#5800A3" }} onClick={handleSaveSubmissions}>Finished Submissions</Button>
+              <Button className="justify-end mt-2" style={{ backgroundColor: "#5800A3" }} onClick={handleSaveSubmissions}>Save Submissions</Button>
               </div>
               <Card key={assignment.id} className="mb-8">
                 <CardHeader className="border p-5 rounded-md m-4">
